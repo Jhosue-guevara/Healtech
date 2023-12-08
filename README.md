@@ -1,0 +1,1 @@
+La aplicación "HealtTech" tiene como objetivo principal mejorar la salud de las personas al ofrecer una solución integral para el control y seguimiento de medicamentos y tratamientos médicos. Con herramientas como recordatorios notificados y seguimiento preciso de recetas, HealtTech busca optimizar el manejo de medicamentos y revolucionar la interacción entre médicos y pacientes.
