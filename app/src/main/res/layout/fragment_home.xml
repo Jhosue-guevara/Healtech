@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f0f7"
+    android:backgroundTint="#f1f0f7"
+    tools:context=".ui.home.HomeFragment">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView2"
+        android:layout_width="279dp"
+        android:layout_height="226dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/recetas" />
+
+    <TextView
+        android:id="@+id/tvColaMedicamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_background"
+        android:gravity="center"
+        android:text="Tus Prescripciones o Recetas Asignadas"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animationView2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerRecetas"
+        android:layout_width="374dp"
+        android:layout_height="508dp"
+        android:layout_marginTop="22dp"
+        android:background="#F4F0F0"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvColaMedicamento"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
